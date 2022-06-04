@@ -24,9 +24,10 @@ export const Footer = () => {
                         mt: 'auto',
                         backgroundColor: (theme) =>
                             theme.palette.mode === 'light'
-                                ? theme.palette.grey[200]
+                                ? theme.palette.primary[200]
                                 : theme.palette.grey[800],
                     }}
+                    style=""
                 >
                     <Container maxWidth="sm">
                         <Typography>
