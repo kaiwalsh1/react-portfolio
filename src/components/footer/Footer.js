@@ -9,12 +9,11 @@ export default function Footer() {
         
         <div className="footer">
             <div className="wrapper">
-                
                 <div className="itemContainer">
-                    <GitHubIcon sx={{ fontSize: 50 }}  />
+                    <GitHubIcon sx={{ fontSize: 65 }}  />
                 </div>
                 <div className="itemContainer">
-                    <LinkedInIcon sx={{ fontSize: 50 }} color="primary" />
+                    <LinkedInIcon sx={{ fontSize: 65 }} color="primary" className="linkedIn" />
                 </div>
             </div>
         </div>

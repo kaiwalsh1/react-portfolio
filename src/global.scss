@@ -5,3 +5,23 @@ $secondaryColor: lightcoral;
 * {
     font-family: 'Roboto', sans-serif;
   }
+
+/* =========================
+MEDIA QUERIES (MED)
+========================== */
+
+@media screen and (max-width: 1024px) {
+  .app {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+  }
+}
+
+/* =========================
+MEDIA QUERIES (SM)
+========================== */
+@media screen and (max-width: 600px) {
+  .app {
+      width: 90%;
+  }
+}
