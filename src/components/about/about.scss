@@ -3,6 +3,8 @@
     display: flex;
     height: calc(100vh - 140px);
     position: fixed;
+    top: 70px;
+    bottom: 70px;
 
     .left{
         flex: 0.3;

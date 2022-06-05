@@ -10,10 +10,12 @@ export default function Footer() {
         <div className="footer">
             <div className="wrapper">
                 
-                {/* <Typography>
+                <div className="itemContainer">
                     <GitHubIcon sx={{ fontSize: 50 }}  />
+                </div>
+                <div className="itemContainer">
                     <LinkedInIcon sx={{ fontSize: 50 }} color="primary" />
-                </Typography> */}
+                </div>
             </div>
         </div>
     )

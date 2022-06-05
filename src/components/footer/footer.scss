@@ -17,5 +17,13 @@
         align-items: center;
         justify-content: flex-end;
         flex: 0;
+
+        .itemContainer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            // flex-direction: row;
+        }
     }
 }
