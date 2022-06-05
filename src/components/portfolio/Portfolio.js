@@ -10,8 +10,6 @@ import noteTakerApp from '../../assets/noteTakerApp.png';
 
 export default function Portfolio() {
 
-    const [selected, setSelected] = useState("featured");
-
     const list = [
         {
             id: "1",
@@ -56,13 +54,13 @@ export default function Portfolio() {
             <ul>
                 {list.map(item => (
                     <PortfolioList
-                        id={item.id}
-                        image={item.image}
-                        title={item.title}
-                        github={item.github}
-                        deployed={item.deployed}
-                        active={selected === item.id}
-                        setSelected={setSelected}
+                        // id={item.id}
+                        // image={item.image}
+                        // title={item.title}
+                        // github={item.github}
+                        // deployed={item.deployed}
+                        // active={selected === item.id}
+                        // setSelected={setSelected}
                     />
                 ))}
             </ul>

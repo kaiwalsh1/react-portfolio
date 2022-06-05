@@ -2,27 +2,34 @@ import './header.scss'
 import { Person, Email } from '@mui/icons-material';
 import { useState } from 'react'
 
-export default function Header() {
-const [activeHeader, setActiveHeader] = useState(true);
+export default function Header({setCurrentPage}) {
+// const [activeHeader, setActiveHeader] = useState('#about');
 
     return (
         <div className="header">
             <div className="wrapper">
                 <div className="left">
-                    <a href="#about"
-                        onClick={() => setActiveHeader('#')}
-                        className={activeNav === '#' ? 'active' : ''}
+                    <a href="#about" 
+                        className="logo"
                     >Kai Walsh</a>
+
                     <div className="menuContainer">
-                        <a href="#about" className="menuItem"
-                            
+                        <a href="#about" 
+                            className="menuItem"
+                            onClick={() => setCurrentPage('About')}
                         >About Me</a>
                     </div>
                     <div className="menuContainer">
-                        <a href="#portfolio" className="menuItem">Portfolio</a>
+                        <a href="#portfolio" 
+                            className="menuItem"
+                            onClick={() => setCurrentPage('Portfolio')}
+                        >Portfolio</a>
                     </div>
                     <div className="menuContainer">
-                        <a href="#contact" className="menuItem">Contact Me</a>
+                        <a href="#contact" 
+                            className="menuItem"
+                            onClick={() => setCurrentPage('Contact')}
+                        >Contact Me</a>
                     </div>
                 </div>
 
