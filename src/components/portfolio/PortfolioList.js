@@ -25,9 +25,22 @@ export default function PortfolioList(list) {
 
     console.log(list);
     return (
-        <div className="container">
-            <Card sx={{ maxWidth: 345 }}
-                className="card"
+        // <div className="container" 
+        //     // style={{ display: 'flex', height: '100%' }}
+        //     style={{ width: '100%' }}
+        //     sx={{ display: 'flex' }}
+        // >
+            <Card sx={{ maxWidth: 275 }}
+                className="card" 
+                sx={{
+                    display: 'flex',
+                    flexWrap: 'nowrap',
+                    flexDirection: 'row',
+                    p: 1,
+                    m: 1,
+                    bgcolor: '#1a9363'
+                }}
+                // style={{ flexGrow: 1 }}
             >
                 <CardContent className="cardContent">
                     <Typography variant="h5" component="div">
@@ -50,7 +63,7 @@ export default function PortfolioList(list) {
                     </CardActions>
                 </CardContent>
             </Card>
-        </div>
+        // </div>
 
 
 

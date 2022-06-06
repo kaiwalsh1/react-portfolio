@@ -26,6 +26,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
 }
 
     .card{
@@ -34,6 +36,7 @@
         // flex-wrap: wrap;
         // align-items: center;
         // flex-direction: row;
+        background-color: #1a9363;
 
 
         .cardContent{
@@ -52,7 +55,6 @@
 
     .buttons{
         // background-color: rgba(18, 91, 139, 0.962);
-        background-color: red;
         color: white;
         borderRadius: 2;
     }

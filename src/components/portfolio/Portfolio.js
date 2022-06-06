@@ -53,8 +53,11 @@ export default function Portfolio() {
     return (
         <div className="portfolio" id="portfolio">
             <h1 className="portfolioHeader">Portfolio</h1>
+            <div className="container">
                 {list.map(item => (
                     <PortfolioList
+                        sx={{ justifyContent: 'flex-start' }}
+                        sx={{ flexWrap: 'wrap' }}
                         id={list.id}
                         list={list}
                         image={item.image}
@@ -66,6 +69,7 @@ export default function Portfolio() {
                         // setSelected={setSelected}
                     />
                 ))}
+            </div>
         </div>
     )
 }
