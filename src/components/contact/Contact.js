@@ -2,6 +2,9 @@ import './contact.scss'
 import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 import { Person, Email } from '@mui/icons-material';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 
 export default function Contact() {
 
@@ -41,7 +44,18 @@ export default function Contact() {
             <div className="left">
                 <div className="wrapper">
                     <h1>Get in touch</h1>
-
+                    <div className="itemContainer">
+                        <a href="mailto:kai@kaiconsulting.co" target="_blank" id="mail"><Email className="icon" sx={{ fontSize: 65 }}/></a>
+                        <span>kai@kaiconsulting.co</span>
+                    </div>
+                    <div className="itemContainer">
+                        <a href="https://github.com/kaiwalsh1" target="_blank" ><GitHubIcon sx={{ fontSize: 65 }} id="icon"/></a>
+                        <span>GitHub</span>
+                    </div>
+                    <div className="itemContainer">
+                        <a href="https://www.linkedin.com/in/kai-walsh/" target="_blank"><LinkedInIcon sx={{ fontSize: 65 }} id="icon"/></a>
+                        <span>LinkedIn</span>
+                    </div>
                 </div>
             </div>
             <div className="right">
