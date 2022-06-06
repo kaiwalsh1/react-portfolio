@@ -1,4 +1,7 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
+// import Link from '@material-ui/core/Link';
+import React from "react";
+import { Route } from "react-router-dom";
 
 export default function PortfolioList(list) {
     // {id, title, deployed, image, github, active, setSelected}
@@ -14,7 +17,7 @@ export default function PortfolioList(list) {
 
             </div>
             <div className="itemContainer">
-                <GitHubIcon sx={{ fontSize: 40 }} 
+                <GitHubIcon sx={{ fontSize: 40 }}
                     // onClick={() => window.open({list.github}, '_blank')}
                     href={list.github} target="_blank" rel="noopener noreferrer"
                 />
