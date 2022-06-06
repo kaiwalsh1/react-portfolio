@@ -8,7 +8,7 @@ import './app.scss'
 import { useState } from 'react'
 
 export const App = () => {
-  const [currentPage, setCurrentPage] = useState('Contact');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
     if (currentPage === 'About') {

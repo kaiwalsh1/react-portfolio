@@ -64,7 +64,7 @@ export default function Contact() {
                         onChange={handleInputChange}
                         type="text"
                         placeholder="message"
-                        className="message"
+                        id="message"
                     />
                     <Button variant="contained" className="button" sx={{ fontSize: 20 }}
                         onClick={handleFormSubmit}
