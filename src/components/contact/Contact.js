@@ -1,6 +1,7 @@
 import './contact.scss'
 import React, { useState } from 'react';
 import Button from '@mui/material/Button';
+import { Person, Email } from '@mui/icons-material';
 
 export default function Contact() {
 
@@ -40,6 +41,7 @@ export default function Contact() {
             <div className="left">
                 <div className="wrapper">
                     <h1>Get in touch</h1>
+
                 </div>
             </div>
             <div className="right">

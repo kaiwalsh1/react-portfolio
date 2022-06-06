@@ -10,8 +10,8 @@ export default function Footer() {
     return (
 
         <div className="footer">
-            <div className="wrapper">
-                <div className="itemContainer">
+            <div className="navBarBottom">
+                <div className="itemContainer container-fluid">
                     <a href="https://github.com/kaiwalsh1" target="_blank" className="github">
                         <GitHubIcon sx={{ fontSize: 65 }} />
                     </a>
