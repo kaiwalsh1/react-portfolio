@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/kaiwalsh1/react-portfolio/static/css/main.6f342a42.css",
+    "main.js": "/kaiwalsh1/react-portfolio/static/js/main.a3c02ab2.js",
+    "static/media/famYOUly.png": "/kaiwalsh1/react-portfolio/static/media/famYOUly.c5fa8675bad4024de0c9.png",
+    "static/media/puppyLove.png": "/kaiwalsh1/react-portfolio/static/media/puppyLove.22d93be7be8a8da7b4eb.png",
+    "static/media/weatherDashboard.png": "/kaiwalsh1/react-portfolio/static/media/weatherDashboard.4e812307b19f9b95c4a4.png",
+    "static/media/corank.png": "/kaiwalsh1/react-portfolio/static/media/corank.32748da6d770ccb6cf66.png",
+    "static/media/noteTakerApp.png": "/kaiwalsh1/react-portfolio/static/media/noteTakerApp.ee5d1f01fc50746830cc.png",
+    "index.html": "/kaiwalsh1/react-portfolio/index.html",
+    "main.6f342a42.css.map": "/kaiwalsh1/react-portfolio/static/css/main.6f342a42.css.map",
+    "main.a3c02ab2.js.map": "/kaiwalsh1/react-portfolio/static/js/main.a3c02ab2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f342a42.css",
+    "static/js/main.a3c02ab2.js"
+  ]
+}
