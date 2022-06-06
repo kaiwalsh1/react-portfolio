@@ -10,6 +10,8 @@ import noteTakerApp from '../../assets/noteTakerApp.png';
 
 export default function Portfolio() {
 
+    const [project, setProject] = useState('');
+
     const list = [
         {
             id: "1",
@@ -50,20 +52,19 @@ export default function Portfolio() {
 
     return (
         <div className="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
-            <ul>
+            <h1 className="portfolioHeader">Portfolio</h1>
                 {list.map(item => (
                     <PortfolioList
-                        // id={item.id}
-                        // image={item.image}
-                        // title={item.title}
-                        // github={item.github}
-                        // deployed={item.deployed}
+                        id={list.id}
+                        list={list}
+                        image={item.image}
+                        title={item.title}
+                        github={item.github}
+                        deployed={item.deployed}
                         // active={selected === item.id}
                         // setSelected={setSelected}
                     />
                 ))}
-            </ul>
         </div>
     )
 }

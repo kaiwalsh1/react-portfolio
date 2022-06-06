@@ -4,9 +4,14 @@
     height: calc(100vh - 140px);
     background-color: lightcoral;
 
-    h1{
-        // padding-top: 50px;
-        margin-left: 20px;
+    .portfolioHeader{
+        display: flex;
+        font-size: 50px;
+        font-weight: 700;
+        justify-content: center;
+        padding-top: 50px;
     }
+
+    
 
 }

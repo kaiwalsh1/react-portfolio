@@ -79,6 +79,48 @@
                 margin-right: 30px;
             }
 
+            .containerSection{
+                padding-top: 20px;
+                display: flex;
+                align-items: start;
+
+                .leftSection{
+                    flex: 0.4;
+
+                    a{
+                        text-decoration: none;
+                    }
+    
+                    .button{
+                        background-color: rgba(18, 91, 139, 0.962);
+                        color: white;
+                        borderRadius: 2;
+                    }
+                }
+
+                .middleSection{
+                    flex: 0.4;
+
+                    ul{
+                        padding-top: 10px;
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+                }
+
+                .rightSection{
+                    flex: 0.4;
+
+                    ul{
+                        padding-top: 10px;
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+
+                }
+            }
+            
+
         }
 
     }
