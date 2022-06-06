@@ -1,0 +1,53 @@
+@import '../../global.scss';
+
+.footer{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    background-color: rgba(18, 91, 139, 0.962);
+    // background-color: red;
+    // right: 0;
+    bottom: 0;
+    // left: 0;
+    
+    h1{
+
+    }
+    .navBarBottom{
+        display: flex;
+        justify-content: center;
+        flex: 0;
+
+
+        .itemContainer{
+            display: flex;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            // padding: 10 0;
+            padding: 3 2;
+            margin-top: auto;
+            margin-left: 30px;
+
+            a{
+                pointer: cursor;
+            }
+            
+            .github{
+                color: white;
+                text-decoration: none;
+                pointer: cursor;
+            }
+            
+            .linkedIn{
+                color: white;
+                text-decoration: none;
+            }
+            .twitter{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
