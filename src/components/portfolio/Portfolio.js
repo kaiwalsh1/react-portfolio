@@ -44,7 +44,7 @@ export default function Portfolio() {
         {
             id: "5",
             image: './assets/noteTakerApp.png',
-            title: "CO Racquetball Ranking Generator",
+            title: "Note Taker App",
             github: 'https://github.com/kaiwalsh1/NoteTakerHomework',
             deployed: 'https://note-taker-app-hw.herokuapp.com/',
         },
@@ -56,8 +56,7 @@ export default function Portfolio() {
             <div className="container">
                 {list.map(item => (
                     <PortfolioList
-                        sx={{ justifyContent: 'flex-start' }}
-                        sx={{ flexWrap: 'wrap' }}
+                        sx={{ justifyContent: 'flex-start', flexWrap: 'wrap' }}
                         id={list.id}
                         list={list}
                         image={item.image}
