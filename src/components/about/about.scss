@@ -1,4 +1,4 @@
-@import '../../global.scss';
+
 
 .about{
     background-color: white;
@@ -53,6 +53,7 @@
                 margin-right: 50px;
                 padding-right: 50px;
 
+                // eslint-disable-next-line
                 a{
                     text-decoration: none;
                     font-weight: bold;
@@ -95,7 +96,7 @@
                     .button{
                         background-color: rgba(18, 91, 139, 0.962);
                         color: white;
-                        borderRadius: 2;
+                        border-radius: 2;
                     }
                 }
 

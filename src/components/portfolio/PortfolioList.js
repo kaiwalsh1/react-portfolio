@@ -1,13 +1,12 @@
-import GitHubIcon from '@mui/icons-material/GitHub';
+// import GitHubIcon from '@mui/icons-material/GitHub';
 import * as React from 'react';
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
 import CardMedia from '@mui/material/CardMedia';
-import { createTheme } from '@mui/material/styles';
+// import { createTheme } from '@mui/material/styles';
 
 
 
@@ -15,19 +14,12 @@ import { createTheme } from '@mui/material/styles';
 export default function PortfolioList(list) {
     // {id, title, deployed, image, github, active, setSelected}
 
-    const bull = (
-        <Box
-            component="span"
-            sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-        >
-        </Box>
-    );
-
     console.log(list);
     return (
-            <Card sx={{ maxWidth: 275 }}
+            <Card
                 className="card" 
                 sx={{
+                    maxWidth: 275,
                     display: 'flex',
                     flexWrap: 'nowrap',
                     flexDirection: 'row',
@@ -49,11 +41,11 @@ export default function PortfolioList(list) {
                     />
                     <CardActions>
                         {/* <Link to={this.list.github} onClick={() => setButton(true)}></Link> */}
-                        <a href={list.github} className="btn" target='_blank'>
+                        <a href={list.github} className="btn" target='_blank' rel="noopener noreferrer">
                             <Button variant="contained" size="large" className="buttons">GitHub</Button>
                         </a>
 
-                        <a href={list.deployed} className="btn" target='_blank'>
+                        <a href={list.deployed} className="btn" target='_blank' rel="noopener noreferrer">
                             <Button variant="contained" size="large" className="buttons">Deployed App</Button>
                         </a>
                     </CardActions>

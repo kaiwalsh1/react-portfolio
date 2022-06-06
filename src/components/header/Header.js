@@ -1,6 +1,6 @@
 import './header.scss'
-import { Person, Email } from '@mui/icons-material';
-import { useState } from 'react'
+import { Email } from '@mui/icons-material';
+// import { useState } from 'react'
 
 export default function Header({setCurrentPage}) {
 

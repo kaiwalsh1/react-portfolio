@@ -1,16 +1,11 @@
 import './portfolio.scss'
-import { useEffect, useState } from 'react'
+// import { useState } from 'react'
 import PortfolioList from './PortfolioList'
-import puppyLove from '../../assets/puppyLove.png';
-import famYouly from '../../assets/famYOUly.png';
-import corank from '../../assets/corank.png';
-import weatherDashboard from '../../assets/weatherDashboard.png';
-import noteTakerApp from '../../assets/noteTakerApp.png';
 
 
 export default function Portfolio() {
 
-    const [project, setProject] = useState('');
+    // const [project, setProject] = useState('');
 
     const list = [
         {
