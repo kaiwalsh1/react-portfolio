@@ -3,7 +3,6 @@ import { Person, Email } from '@mui/icons-material';
 import { useState } from 'react'
 
 export default function Header({setCurrentPage}) {
-// const [activeHeader, setActiveHeader] = useState('#about');
 
     return (
         <div className="header">

@@ -3,4 +3,54 @@
 .contact{
     height: calc(100vh - 140px);
     background-color: #1a9363;
+
+
+
+
+
+}
+
+.left{
+    flex: 0.5;
+
+    h1{
+        padding-left: 50px;
+        padding-top: 100px;
+        font-weight: 800;
+    }
+}
+
+.right{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        // padding: 50px 100px;
+        width: 50%;
+        height: 100%;
+        justify-content: flex-end;
+        align-items: flex-start;
+        
+        
+
+        input{
+            font-size: 28px;
+            font-weight: 300;
+
+            #message{
+                height: 100px;
+                margin: 20px;
+            }
+        }
+
+        .button{
+            background-color: rgba(18, 91, 139, 0.962);
+            align-items: center;
+            justify-content: center;
+        }
+    }
 }

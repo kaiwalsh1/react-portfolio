@@ -14,7 +14,7 @@ Run the app:
 ### `npm start`
 
 ## Credits
-Used previous project coRank for media queries and referenced in-class activities. Referenced youtube video for styling purposes.
+Used previous project coRank for media queries and used in-class activities for forms. Referenced youtube video for styling purposes.
 [video](https://www.youtube.com/watch?v=7WwtzsSHdpI)
 
 [portfolio link]()

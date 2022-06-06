@@ -4,6 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import { Person, Email } from '@mui/icons-material';
 
 export default function Footer() {
     return (
@@ -16,10 +17,14 @@ export default function Footer() {
                     </a>
                 </div>
                 <div className="itemContainer">
-                    <LinkedInIcon sx={{ fontSize: 65 }} color="primary" className="linkedIn" href="https://www.linkedin.com/in/kai-walsh/" target="_blank" rel="noopener noreferrer" />
+                    <a href="https://www.linkedin.com/in/kai-walsh/" target="_blank" className="linkedIn">
+                        <LinkedInIcon sx={{ fontSize: 65 }} />
+                    </a>
                 </div>
                 <div className="itemContainer">
-                    <TwitterIcon sx={{ fontSize: 65 }} href="https://twitter.com/thequeerumbrel1" target="_blank" />
+                    <a href="https://twitter.com/thequeerumbrel1" target="_blank" className="twitter">
+                        <TwitterIcon sx={{ fontSize: 65 }} />
+                    </a>
                 </div>
 
             </div>

@@ -33,7 +33,7 @@ export default function PortfolioList(list) {
                     flexDirection: 'row',
                     p: 1,
                     m: 1,
-                    bgcolor: '#47afc6'
+                    bgcolor: '#458DA5',
                 }}
             >
                 <CardContent className="cardContent">

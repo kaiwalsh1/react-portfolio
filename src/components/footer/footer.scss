@@ -28,14 +28,24 @@
             padding: 3 2;
             margin-top: auto;
             margin-left: 30px;
+
+            a{
+                pointer: cursor;
+            }
             
             .github{
                 color: white;
                 text-decoration: none;
+                pointer: cursor;
             }
             
             .linkedIn{
                 color: white;
+                text-decoration: none;
+            }
+            .twitter{
+                color: white;
+                text-decoration: none;
             }
         }
     }
